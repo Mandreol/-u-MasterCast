@@ -1,5 +1,6 @@
+//this component allows you to select the card deck to be used
 import React from "react";
-import "../styles/CardDeckSelector.css";
+import "../../styles/CardDeckSelector.css";
 
 const CardDeckSelector = () => {
 	return (
