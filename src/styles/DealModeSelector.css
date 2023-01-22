@@ -1,0 +1,13 @@
+.DealModeSelector-container {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	z-index: 200;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: blueviolet;
+}
+.DealModeSelector-img {
+	width: 100px;
+}

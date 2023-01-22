@@ -1,10 +1,10 @@
 import React from "react";
-import CardDeckSelector from "../components/menu_components/CardDeckSelector";
 import Logo from "../components/Logo";
 import ParticlesBackground from "../components/ParticlesBackground";
 import Title from "../components/Title";
 import "../styles/home.css";
 import TextGuide from "../components/TextGuide";
+import MenuSlider from "../components/MenuSlider";
 
 const Home = () => {
 	return (
@@ -13,7 +13,7 @@ const Home = () => {
 			<Title />
 			<TextGuide />
 			<ParticlesBackground />
-			<CardDeckSelector />
+			<MenuSlider />
 		</div>
 	);
 };

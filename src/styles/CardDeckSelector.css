@@ -1,21 +1,20 @@
 .CardDeckSelector {
-	position: relative;
-	z-index: 100;
-	width: 90%;
+	position: absolute;
+	z-index: 900;
 	height: 200px;
+	width: 100%;
 	display: flex;
 	justify-content: center;
-	gap: 2rem;
 	align-items: center;
-	margin-top: 70px;
-
+	gap: 1rem;
 	transition: transform 1s;
+	background-color: brown;
 }
-.CardDesckSelector-icon {
+.CardDeckSelector-icon {
 	display: inline-block;
-	width: 15%;
+	width: 100px;
 }
-.CardDesckSelector-icon:hover {
+.CardDeckSelector-icon:hover {
 	transition: transform 1s;
 	transform: scale(1.2);
 }

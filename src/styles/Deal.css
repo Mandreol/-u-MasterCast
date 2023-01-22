@@ -1,0 +1,9 @@
+.Deal-container {
+	position: absolute;
+	height: 200px;
+	width: 100%;
+	background-color: green;
+}
+.Deal-img {
+	width: 100px;
+}
