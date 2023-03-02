@@ -1,14 +1,15 @@
 .MenuSlider {
 	position: relative;
-	display: flex;
+
 	width: 90vw;
 	overflow: hidden;
 }
 .MenuSlider-container {
 	position: relative;
-	z-index: 1000;
 	display: flex;
-	width: 500%;
+	width: 400%;
 	height: 50vh;
 	flex-wrap: nowrap;
+	margin-left: 0%;
+	transition: all 1s;
 }

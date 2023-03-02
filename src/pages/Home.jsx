@@ -4,7 +4,7 @@ import ParticlesBackground from "../components/ParticlesBackground";
 import Title from "../components/Title";
 import "../styles/home.css";
 import TextGuide from "../components/TextGuide";
-import MenuSlider from "../components/MenuSlider";
+import MenuSlider from "../components/menu_components/MenuSlider";
 
 const Home = () => {
 	return (

@@ -1,13 +1,13 @@
-//this component allows you to select the card deck to be used
-import React, { useState } from "react";
 import "../../styles/CardDeckSelector.css";
-
-const CardDeckSelector = ({ onCardDeckSelected }) => {
-	const [cardDeck, setCardDeck] = useState(null);
+import { useDispatch } from "react-redux";
+import { setValue } from "../../store/slice/CardDeck.slice";
+import { setPosition } from "../../store/slice/sliderPosition.slice";
+const CardDeckSelector = () => {
+	const dispatch = useDispatch();
 
 	const handleClick = (deck) => {
-		setCardDeck(deck);
-		onCardDeckSelected(deck);
+		dispatch(setValue(deck));
+		dispatch(setPosition("-100%"));
 	};
 
 	return (
